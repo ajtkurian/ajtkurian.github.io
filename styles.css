@@ -98,9 +98,8 @@ nav	{
 }
 nav a {
 	position:relative;
-	top: 2px;
+	padding: 30px;
 	text-align: center;
-	margin-left: 40px;
 	font-family: Calibri, sans-serif;
 
 }
@@ -116,4 +115,12 @@ nav a {
   nav {
     height: 75px;
   }
+}
+.chalmers {
+	height: 185px;
+	width:104px;
+	margin: 0 auto;
+}
+.chalmers:hover {
+	background-image: url("Pics/Chalmers.png")
 }
