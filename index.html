@@ -1,41 +1,58 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Here comes Austin Rivers!!!</title>
+	<title>Shaqtin A Fool Hall of Fame</title>
+	<link rel="stylesheet" type="text/css" href="styles.css"> 
+	<link rel="stylesheet" type="text/css" href="player_position.css"> 
 </head>
 <body>
-	<h1>The Official Austin Rivers Fanpage</h1>
-	<p>
-		Where would the Clippers be without Austin Rivers?  He represents the brunt of criticism and insults for a whole organization.  The Clippers used to be the butt of all jokes but Austin Rivers has taken it upon himself to bear such a burden.  That is why I dedicate this page to him and all his Not Top 10 plays.
-	</p>
-	<h2>
-		Here Comes Austin Rivers!!!
-	</h2>
-	<p>
-		<img src="Rivers_Img" alt="Rivers Sad Face">
-		<br>
-		<a href="https://www.yahoo.com/news/austin-rivers-knows-exactly-why-202011024.html">Source</a>
-		<br>
-		<img src="http://i.kinja-img.com/gawker-media/image/upload/s--LnBtDK2J--/c_fit,f_auto,fl_progressive,q_80,w_636/fnmhf3ghgqyoapm0wrcz.gif" alt="Rivers Bobbles Ball">
-		<br>
-		<a href="http://screengrabber.deadspin.com/austin-rivers-did-it-again-1702749475">Source</a>
-		<br>
-		<img src="http://i.kinja-img.com/gawker-media/image/upload/s--faoIdMW4--/c_fit,f_auto,fl_progressive,q_80,w_636/avrq5t0szbvuwmfhyjel.gif" alt="Rivers Loses Ball Again">
-		<br>
-		<a href="http://screengrabber.deadspin.com/austin-rivers-sucks-a-brief-illustration-1702175473">Source</a>
-	</p>
+	<div class="banner">
+			<h1>Shaqtin A Fool <br> Hall of Fame</h1>
+	</div>
 
-	<form action="Thanks.html" method="link">
-		<label><b>Please Leave Your Comments Below For Doc</b></label>
-		<br>
-		<textarea rows="6" cols="50"></textarea>
-		<br>
-		<button type="submit">Submit</button>
-	</form>
-	<br>
-	<br>
-	<footer>
-		<a href="Why.html">Why I Created This Site</a>
-	</footer>
+	<main style="height: 1100px">
+		<section>
+			<h1>The Shaqtin-A-Fool Hall of Fame</h1>
+			<p>
+				Why limit this website to the antics of just one player when we all can celebrate the hilarity of a few "special" players in the NBA.  Here are the starting five for the Shaqtin-A-Fool Hall of Fame: Click on a Player!
+			</p>
+		</section>
+		<div class="player_group">
+			<a href="Player_Pages/rivers.html" id="Rivers" class="players">
+				<img src="Pics/austin_rivers.png" alt="Rivers" >
+				<p>PG: Austin Rivers</p>
+			</a>
+			<a href="Player_Pages/young.html" id="Young" class="players">
+				<img src="Pics/nick_young.png" alt="Young">
+				<p>SG: Nick Young </p>
+			</a>
+			<a href="Player_Pages/waiters.html" id="Waiters" class="players">
+				<img src="Pics/dion_waiters.png" alt="Waiters">
+				<p>SF: Dion Waiters </p>
+			</a>
+			<a href="Player_Pages/mcgee.html" id="McGee" class="players">
+				<img src="Pics/javale_mcgee.png" alt="McGee">
+				<p>PF: JaVale McGee</p>
+			</a>
+			<a href="Player_Pages/perkins.html" id="Perkins" class="players">
+				<img src="Pics/kendrick_perkins.png" alt="Perkins">
+				<p>C: Kendrick Perkins</p>
+			</a>
+			
+		</div>
+
+		<a href="http://www.nba.com/fool" id="shaqlink">
+			<img src="Shaq1.ico" onmouseover="this.src='Shaq2.png'" onmouseout="this.src='Shaq1.ico'" alt="Shaq">
+		</a>
+
+		<form action="https://httpbin.org/post" method="post">
+			<label><b>Please Leave Your Comments Below For who you think belongs in the Hall.</b></label>
+			<br>
+			<textarea rows="6" cols="50"></textarea>
+			<br>
+			<button type="button">Submit</button>
+		</form>
+	</main>
+	
 </body>
 </html>
